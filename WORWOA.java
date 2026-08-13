@@ -1,0 +1,14 @@
+   
+public class WORWOA {
+    //With out return type with out argument method
+    public void addValue(){
+        int a=10;
+        int b=20;
+        int sum = a + b;
+        System.out.println("Sum: " + sum);  
+    }
+    public static void main(String[] args) {
+        WORWOA obj = new WORWOA();
+        obj.addValue();
+    }
+}
